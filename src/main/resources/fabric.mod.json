@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "nukepay",
+	"version": "${version}",
+	"name": "NukePay",
+	"description": "Big client-side screen effects (coin bursts, fireworks, lightning, nukes, orbital lasers, supernovas) when someone pays you in chat. Only you see them.",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.nukepay.NukePayClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
